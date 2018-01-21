@@ -9,7 +9,7 @@ function isValidElement(element) {
 }
 
 function isClickInsideDialog(element, event) {
-  // fixes a bug with multiple dialogs and keyboard users
+  // fixes a keyboard user bug
   if (event.clientX === 0 && event.clientY === 0) {
     return false
   }
