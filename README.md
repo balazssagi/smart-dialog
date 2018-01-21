@@ -4,6 +4,8 @@ A small wrapper around the native [ HTML \<dialog\> element](https://developer.m
 
 **Note:** This library doesn't yet support `form` elements with the attribute `method="dialog"` inside dialogs.
 
+Check out a [demo](https://balazssagi.github.io/smart-dialog/).
+
 ## Installation
 
 Install from npm:
@@ -26,10 +28,10 @@ Create an instance by passing a `dialog` element and an optional options object 
 const myDialog = new SmartDialog(document.getElementById('my-dialog'), options)
 ```
 
-The available options are
+The following options are available:
 
-* `handleFocus`: Boolean. Defaults to true
-* `handleBackdropClick`: Boolean. Defaults to true
+* `handleFocus` Boolean. Defaults to true
+* `handleBackdropClick` Boolean. Defaults to true
 
 For example:
 
