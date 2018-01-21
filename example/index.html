@@ -1,0 +1,34 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <dialog id="dialog">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet aperiam molestiae fugit at consectetur quibusdam voluptatem? Voluptatem sunt quis velit eos vel libero necessitatibus iste, corrupti possimus a laudantium?</p>
+    <button id="close-dialog">close</button>
+  </dialog>
+
+  <button id="open-dialog">open dialog</button>
+
+  <script src="../dist/smart-dialog.js"></script>
+
+  <script>
+    var openDialogButton = document.getElementById('open-dialog');
+    var closeDialogButton = document.getElementById('close-dialog')
+    var dialog = new SmartDialog(document.getElementById('dialog'))
+
+    openDialogButton.addEventListener('click', function () {
+      dialog.showModal();
+    })
+
+    closeDialogButton.addEventListener('click', function () {
+      dialog.close();
+    })
+  </script>
+
+</body>
+
+</html>
