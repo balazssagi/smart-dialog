@@ -10,6 +10,10 @@
     "build:es": "rollup -c ./build/rollup.config.es.js",
     "build:umd": "rollup -c ./build/rollup.config.umd.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balazssagi/smart-dialog.git"
+  },
   "author": "Balázs Sági",
   "license": "MIT",
   "devDependencies": {
