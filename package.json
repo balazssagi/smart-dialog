@@ -1,6 +1,6 @@
 {
   "name": "smart-dialog",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A small wrapper around the native HTML <dialog> element, adding support for restoring focus after close, and closing by clicking on the backdrop.",
   "main": "./dist/smart-dialog.js",
   "module": "./dist/smart-dialog.es.js",
